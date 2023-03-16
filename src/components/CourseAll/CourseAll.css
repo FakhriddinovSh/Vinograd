@@ -1,0 +1,38 @@
+.course-all-title{
+    margin: 0;
+    margin-bottom: 58px;
+    margin-top: 66px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+    color: #414141;
+}
+
+.course-all-link{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    letter-spacing: -0.35px;
+    color: #1b0c0c;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.course-all-item{
+    margin-right: 60px;
+}
+
+.course-all-item:last-child{
+    margin-right: 0;
+}
+
+.course-all-list{
+    margin-bottom: 51px !important;
+}
+
+.course-all-link--active{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #000;
+}

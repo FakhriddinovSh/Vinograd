@@ -1,0 +1,48 @@
+.course-item {
+	position: relative;
+	width: 389px;
+	padding: 20px;
+	padding-bottom: 56px;
+	background: #ffffff;
+	border: 2px solid #797979;
+}
+
+.course-item::after {
+	position: absolute;
+	right: 20px;
+	width: 60px;
+	height: 30px;
+	background-image: url('../../assets/images/icons/right-arrow.svg');
+	background-repeat: no-repeat;
+	content: '';
+}
+
+.course-item-title {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 39px;
+	letter-spacing: -0.35px;
+	text-transform: uppercase;
+	color: #0085ca;
+}
+
+.course-count {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 49px;
+	letter-spacing: -0.35px;
+	color: #0085ca;
+}
+
+.course-item-desc {
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.35px;
+	color: #000000;
+}
+
+.course-item-image {
+	margin-bottom: 10px;
+}

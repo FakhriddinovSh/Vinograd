@@ -1,0 +1,57 @@
+.site-header {
+	padding-top: 20px;
+}
+
+.site-header__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.site-header__list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	gap: 35px;
+	text-transform: uppercase;
+}
+
+.site-header__link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header-subitem{
+	position: relative;
+	width: 150px;
+	padding: 16px 20px;
+	background-color: #fff;
+}
+
+.header-subitem::after{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 9px;
+	height: 17px;
+	background-image: url("../../assets/images/icons/subite-icon.svg");
+	background-repeat: no-repeat;
+	content: "";
+}
+/* 
+.header-sublist{
+	display: none;
+	position: fixed;
+}
+
+.site-header__item:hover .header-sublist{
+	display: block;
+} */
+
+.header-button{
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	margin: 0;
+}

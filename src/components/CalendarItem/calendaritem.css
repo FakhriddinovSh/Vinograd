@@ -1,0 +1,151 @@
+.calendar-title{
+    margin-bottom: 48px;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: -0.35px;
+    color: #414141;
+    text-align: center;
+}
+
+.calendar-top-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calendar-filter{
+    position: relative;
+    width: 144px;
+    height: 27px;
+    padding-left: 40px;
+    background-color: transparent;
+    border-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.35px;
+    color: #414141;
+}
+
+.calendar-filter::before{
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../assets/images/icons/calendar-filter.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.calendar-date{
+    padding: 0 33px;
+    position: relative;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.35px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.calendar-date::after{
+    position: absolute;
+    width: 15px;
+    height: 14px;
+    right: 0;
+    top: 6px;
+    background-image: url("../../assets/images/icons/calendar-right.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.calendar-date::before{
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 15px;
+    height: 14px;
+    background-image: url("../../assets/images/icons/calendar-left.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.event-list{
+    margin-top: 80px !important;
+}
+
+.events-item{
+    margin-bottom: 80px;
+}
+
+
+
+.menu-btn{
+    position: relative;
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-image: url("../../assets/images/icons/close-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.menu-wrapper{
+    margin-top: 60px;
+}
+
+.menu-form-inner{
+    width: 230px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-checkbox-input{
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    border-radius: 6px;
+}
+
+.menu-checkbox-label{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.35px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.menu-checkbox-time{
+    width: 243px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.35px;
+    color: #414141;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+.menu-submit{
+    margin-top: 32px;
+    padding: 19px 24px;
+    background: #0085CA;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.35px;
+    color: rgba(255, 255, 255, 0.9);
+    border: transparent;
+}

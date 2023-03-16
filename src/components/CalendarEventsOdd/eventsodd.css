@@ -1,0 +1,41 @@
+.events-odd{
+    position: relative;
+    height: 98px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.events-odd::before{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 7px;
+    height: 89px;
+    background-color: #0085CA;
+    content: "";
+}
+
+.events-odd-time{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.35px;
+    color: #414141;
+}
+
+.events-odd-title{
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.35px;
+    color: #414141;
+}
+
+
+.events-odd-desc{
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.35px;
+    color: #414141
+}

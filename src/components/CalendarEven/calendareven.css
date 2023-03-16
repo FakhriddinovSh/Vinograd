@@ -1,0 +1,24 @@
+.even-wrapper{
+    width: 182px;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D22630;
+    color: #fff;
+}
+
+.even-wrapper span{
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: -0.35px;
+    color: #FFFFFF;
+}
+
+.even-wrapper p {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.35px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,30 @@
+.course-page-wrapper{
+    width: 598px;
+}
+
+.course-page-title{
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+    color: #0085CA;
+}
+
+.course-page-desc{
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -0.35px;
+    color: #FFFFFF;
+}
+
+.course-hero{
+    padding-top: 140px;
+    padding-bottom: 250px;
+    background-image: url("../../assets/images/course-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,83 @@
+.mentors {
+	padding-top: 239px;
+	padding-bottom: 171px;
+}
+
+.mentors-title {
+	margin: 0;
+	margin-bottom: 58px;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 54px;
+	letter-spacing: -0.35px;
+	color: #414141;
+}
+
+.mentors .swiper {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.mentors .swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: auto;
+}
+
+.mentors .swiper-slide img {
+	display: block;
+	width: 100%;
+}
+
+.mentors .swiper-pagination-bullet {
+	display: none;
+}
+
+.mentors-subtitle {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: -0.35px;
+	text-transform: uppercase;
+	color: #414141;
+}
+
+.mentors-desc {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 140%;
+	letter-spacing: -0.35px;
+	text-transform: uppercase;
+	color: #414141;
+}
+
+.mentors-desc-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.mentors-desc-subwrapper {
+	width: 600px;
+}
+
+.mentors-experience {
+	position: relative;
+	top: 50px;
+	width: 376px;
+	padding: 20px 12px;
+	background-color: #0085ca;
+}
+
+.mentors-experience-desc {
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: -0.35px;
+	text-transform: uppercase;
+	color: #ffffff;
+}

@@ -1,0 +1,235 @@
+.hero .swiper {
+	width: 100%;
+	height: auto;
+	padding-top: 100px;
+	padding-bottom: 136px;
+}
+
+.hero .swiper-slide {
+	background-position: center;
+	background-size: cover;
+}
+
+.hero .swiper-slide img {
+	display: block;
+	width: 100%;
+}
+
+.hero-title {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 73px;
+	letter-spacing: -0.35px;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title-piece {
+	color: #d22933;
+}
+
+.content-wrapper {
+	width: 525px;
+}
+
+.hero-btn {
+	margin-top: 30px;
+	padding: 22px 33px;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+	letter-spacing: -0.35px;
+	color: #ffffff;
+	background-color: #d22630;
+	border-color: transparent;
+}
+
+.hero-right-list {
+	width: 400px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #fff;
+}
+
+.hero-right-item {
+	position: relative;
+	margin-bottom: 54px;
+	padding-left: 45px;
+}
+
+.hero-right-item:first-child::before {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: -5px;
+	left: 5px;
+	background-image: url('../../assets/images/icons/calendar-icon.svg');
+	background-repeat: no-repeat;
+	content: '';
+}
+
+.hero-right-item:nth-child(2)::before {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: -5px;
+	left: 5px;
+	background-image: url('../../assets/images/icons/clock-icon.svg');
+	background-repeat: no-repeat;
+	content: '';
+}
+
+.hero-right-item:last-child::before {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: -5px;
+	left: 5px;
+	background-image: url('../../assets/images/icons/location-icon.svg');
+	background-repeat: no-repeat;
+	content: '';
+}
+
+.hero-right-cost {
+	margin: 0;
+	margin-top: 113px;
+	padding: 0;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 45px;
+	letter-spacing: -0.35px;
+	color: #ffffff;
+}
+
+.hero-right-desc {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.35px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.hero .swiper-pagination-bullet {
+	width: 93px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 0;
+}
+
+.modal-wrapper {
+	width: 90%;
+	margin: 0px auto;
+	padding-top: 83px;
+	padding-left: 63px;
+	padding-right: 83px;
+	padding-bottom: 26px;
+	background-color: #fff;
+}
+
+.modal-title {
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 50px;
+	letter-spacing: -0.35px;
+	color: #000000;
+}
+
+.modal-close {
+	width: 42px;
+	height: 42px;
+	background-image: url('../../assets/images/icons/close-icon.svg');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-color: transparent;
+}
+
+.modal-input {
+	width: 100%;
+	margin-bottom: 50px;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 25px;
+	letter-spacing: -0.35px;
+	color: #797979;
+	border: none;
+	border-bottom: 1px solid #797979;
+}
+
+.modal-label {
+	font-size: 18px;
+	line-height: 140%;
+	letter-spacing: -0.35px;
+	color: #797979;
+}
+
+.checkbox-modal {
+	width: 26px;
+	height: 26px;
+	margin-right: 16px;
+}
+
+.modal-right-title {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: -0.35px;
+	color: #797979;
+}
+
+.count {
+	width: 64px;
+	height: 62px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 140%;
+	letter-spacing: -0.35px;
+	color: #797979;
+	border: 2px solid #797979;
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+.count-input {
+	width: 80px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 140%;
+	letter-spacing: -0.35px;
+	color: #797979;
+	background-color: transparent;
+	border: none;
+}
+
+.modal-right-input {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 19px 24px;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 25px;
+	letter-spacing: -0.35px;
+	color: #797979;
+	border: 2px solid #797979;
+	border-radius: 10px;
+}
+
+.modal-submit {
+	display: block;
+	width: 201px;
+	margin: 0 auto;
+	padding: 19px 24px;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: -0.35px;
+	color: rgba(255, 255, 255, 0.9);
+	background: #0085ca;
+	border-radius: 10px;
+	border-color: transparent;
+}

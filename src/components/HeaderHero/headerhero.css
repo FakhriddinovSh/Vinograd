@@ -1,0 +1,7 @@
+.header-hero-wrapper {
+	padding-bottom: 80px;
+	background-image: url('../../assets/images/header-bg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

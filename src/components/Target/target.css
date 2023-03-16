@@ -1,0 +1,58 @@
+.target {
+	position: relative;
+}
+
+.target-title {
+	margin-bottom: 30px;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 59px;
+	text-align: center;
+	letter-spacing: -0.35px;
+	text-transform: uppercase;
+	color: #414141;
+}
+
+.target-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.target-blue {
+	position: absolute;
+	top: 148px;
+	right: 149px;
+	width: 680px;
+	padding: 30px 23px;
+	background-color: #0085ca;
+}
+.target-blue > p {
+	font-weight: 600;
+	font-size: 16.5px;
+	line-height: 180%;
+	letter-spacing: -0.35px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.target-red {
+	position: absolute;
+	bottom: 35%;
+	left: 153px;
+	width: 677px;
+	padding-top: 51px;
+	padding-bottom: 69px;
+	padding-right: 22px;
+	padding-left: 23px;
+	background-color: #d22630;
+}
+
+.target-red p {
+	font-weight: 600;
+	font-size: 16.5px;
+	line-height: 180%;
+	letter-spacing: -0.35px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
